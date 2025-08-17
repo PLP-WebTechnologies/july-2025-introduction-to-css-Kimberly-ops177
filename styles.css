@@ -1,0 +1,86 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* light blue background */
+  line-height: 1.6;
+  padding: 20px;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0077b6; /* ocean blue */
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+  background: #ffffff;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+/* Destinations Section */
+.destinations {
+  background: #ffffff;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+.destinations h2 {
+  margin-bottom: 15px;
+}
+
+/* Destination Cards */
+.card {
+  background-color: #e6f7ff; /* light aqua */
+  border: 2px solid #0077b6; /* ocean border */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-sizing: border-box; /* box model */
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #caf0f8; /* soft blue */
+  border-radius: 6px;
+}
